@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente y las figuras generadas para el Trabajo de Fin de Grado titulado **"Teoría de la Información Cuántica y Computación Cuántica"**, presentado en la Facultad de Ciencias Físicas de la Universidad Complutense de Madrid (Curso 2025-2026).
 
-## 📌 Correspondencia de Archivos y Resultados
+## Correspondencia de Archivos y Resultados
 
 La siguiente tabla vincula las secciones de la memoria con su implementación técnica y los resultados gráficos obtenidos:
 
@@ -12,7 +12,7 @@ La siguiente tabla vincula las secciones de la memoria con su implementación t�
 | **Cap. 2.4**, Fig. 3 | `/Grover` | `grover.py` | `grover.png` | Amplificación de amplitud y búsqueda en base de datos randomizada comparando el algoritmo de Grover frente a la búsqueda lineal. |
 | **Cap. 2.5**, Fig. 4 | `/Shor` | `shor.py` | `shor.png` | Factorización de enteros comparando el algoritmo de Shor con una serie de algoritmos clásicos. |
 
-## ⚙️ Requisitos e Instalación
+## Requisitos e Instalación
 
 Las simulaciones han sido desarrolladas en **Python 3.10+**. Para ejecutarlas, se recomienda crear un entorno virtual e instalar las dependencias necesarias:
 
