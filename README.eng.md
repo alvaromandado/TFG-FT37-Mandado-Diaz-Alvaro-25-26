@@ -1,6 +1,6 @@
 # Appendix: Quantum Information and Quantum Computation (FT37)
 
-*Read this in other languages:[Español](README.md)*
+*Read this in other languages: [Español](README.md)*
 
 
 This repository contains the codes and figures released for the Bachelor's thesis **Quantum Information and Quantum Computation**, presented in Facultad de Ciencias Físicas at Universidad Complutense de Madrid (2025-2026)
