@@ -1,6 +1,9 @@
 # Anexo: Teoría de la Información Cuántica y Computación Cuántica (FT37)
 
+*Leer en otros idiomas: [English](README.eng.md)*
+
 Este repositorio contiene el código fuente y las figuras generadas para el Trabajo de Fin de Grado titulado **"Teoría de la Información Cuántica y Computación Cuántica"**, presentado en la Facultad de Ciencias Físicas de la Universidad Complutense de Madrid (Curso 2025-2026).
+
 
 ## Correspondencia de Archivos y Resultados
 
