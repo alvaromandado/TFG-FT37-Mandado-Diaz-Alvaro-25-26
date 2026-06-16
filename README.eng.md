@@ -1,33 +1,34 @@
-# Anexo: Teoría de la Información Cuántica y Computación Cuántica (FT37)
+# Appendix: Quantum Information and Quantum Computation (FT37)
 
-*Leer en otros idiomas: [English](README.eng.md)*
-
-Este repositorio contiene el código fuente y las figuras generadas para el Trabajo de Fin de Grado titulado **"Teoría de la Información Cuántica y Computación Cuántica"**, presentado en la Facultad de Ciencias Físicas de la Universidad Complutense de Madrid (Curso 2025-2026).
+*Read this in other languages:[Español](README.md)*
 
 
-## Correspondencia de Archivos y Resultados
+This repository contains the codes and figures released for the Bachelor's thesis **Quantum Information and Quantum Computation**, presented in Facultad de Ciencias Físicas at Universidad Complutense de Madrid (2025-2026)
 
-La siguiente tabla vincula las secciones de la memoria con su implementación técnica y los resultados gráficos obtenidos:
 
-| Sección | Directorio | Archivo de Código | Figura Generada | Descripción |
+## Files and results correspondance
+
+The next table shows how the different sections in the memoir relate to the technical implementation and the graphic results:
+
+| Section | Branch | Code file | Generated figure | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Cap. 2.2**, Fig. 2 | `/Deutsch-Jozsa` | `deutsch-jozsa.py` | `deutsch-jozsa.png` | Simulación del algoritmo de Deutsch-Jozsa frente a la mejora post-cuántica y a la búsqueda aleatoria. |
-| **Cap. 2.4**, Fig. 3 | `/Grover` | `grover.py` | `grover.png` | Amplificación de amplitud y búsqueda en base de datos randomizada comparando el algoritmo de Grover frente a la búsqueda lineal. |
-| **Cap. 2.5**, Fig. 4 | `/Shor` | `shor.py` | `shor.png` | Factorización de enteros comparando el algoritmo de Shor con una serie de algoritmos clásicos. |
+| **Sec. 2.2**, Fig. 2 | `/Deutsch-Jozsa` | `deutsch-jozsa-eng.py` | `deutsch-jozsa-eng.png` | Deutsch-Jozsa algorithm simulation, compared to the postquantum non-deterministic algorithm and random search. |
+| **Sec. 2.4**, Fig. 3 | `/Grover` | `grover-eng.py` | `grover-eng.png` | Amplitud amplifying and randomized database search compaering Gorver's algorithm and linear search. |
+| **Sec. 2.5**, Fig. 4 | `/Shor` | `shor-eng.py` | `shor-eng.png` | Integer factorization comparing Shor's algorithm with a series of classical algorithms. |
 
-## Requisitos e Instalación
+## Prerrequisites and Installation
 
-Las simulaciones han sido desarrolladas en **Python 3.10+**. Para ejecutarlas, se recomienda crear un entorno virtual e instalar las dependencias necesarias:
+The simulations have been implemented using **Python 3.10+**. To run them, it is highly recommended to use a virtual environment and to install the necessary packages:
 
 ```bash
 pip install numpy matplotlib qiskit qiskit-aer
 ```
 
-### Instrucciones de uso:
-1. Clone el repositorio: `git clone https://github.com/alvaromandado/TFG-FT37-Mandado-Diaz-Alvaro-25-26.git`
-2. Acceda a la carpeta del algoritmo deseado (ej: `cd Grover`).
-3. Ejecute el script: `python grover.py`.
+### Usage instructions:
+1. Clone the repository: `git clone https://github.com/alvaromandado/TFG-FT37-Mandado-Diaz-Alvaro-25-26.git`
+2. Access the desired algorithm's branch (e.g.: `cd Grover`).
+3. Run the script: `python grover.py`.
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la **Licencia MIT**. Siéntase libre de usar, modificar y distribuir el código, siempre que se mantenga la atribución al autor original.
+This project runs under a **MIT License**. Feel free to use, modify and distribute the contents of the project, given that proper references to the original author are provided.
