@@ -5,7 +5,7 @@
 This branch contains the Grover's search algorithm implementation. This algorithm is quadratically faster than the classical linear search algorithm. It relies on the assumption that the database is unstructured.
 
 ## Description
-The 'grover-eng.py' script shows how **amplifyng the objective's amplitude** solves the searching problem. While a classical algorithm would need an average of $N/2$ tries to find the objective in a database with $N$ elements, Grover's algorithm only needs around $\sqrt{N}$ consults.
+The `grover-eng.py` script shows how **amplifyng the objective's amplitude** solves the searching problem. While a classical algorithm would need an average of $N/2$ tries to find the objective in a database with $N$ elements, Grover's algorithm only needs around $\sqrt{N}$ consults.
 
 
 ## Contents
