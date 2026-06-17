@@ -1,5 +1,7 @@
 # Algoritmo de Shor
 
+*Leer en otros idiomas: [English](README.eng.md)*
+
 Este directorio contiene la simulación del algoritmo de Shor para la factorización de números enteros.
 
 ## Descripción
