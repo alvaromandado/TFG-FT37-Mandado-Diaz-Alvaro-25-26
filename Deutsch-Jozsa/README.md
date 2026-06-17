@@ -1,5 +1,7 @@
 # Algoritmo de Deutsch-Jozsa
 
+*Leer en otros idiomas: [English](README.eng.md)*
+
 Este directorio contiene la implementación del algoritmo de Deutsch-Jozsa, el primer ejemplo de un algoritmo cuántico que es exponencialmente más rápido que su análogo clásico determinista.
 
 ## Descripción
