@@ -1,17 +1,17 @@
-# Algoritmo de Deutsch-Jozsa
+# Deutsch-Jozsa Algorithm
 
-*Leer en otros idiomas: [English](README.eng.md)*
+*Read this in other languages: [Español](README.md)*
 
-Este directorio contiene la implementación del algoritmo de Deutsch-Jozsa, el primer ejemplo de un algoritmo cuántico que es exponencialmente más rápido que su análogo clásico determinista.
+This branck contains the Deutsch-Jozsa algorithm implementation. This was the first example of a quantum algorithm wich is exponentially faster than its classical deterministic analogue.
 
-## Descripción
-El archivo `deutsch-jozsa.py` implementa un oráculo para determinar si una función booleana oculta $f: \{0,1\}^n \rightarrow \{0,1\}$ es **constante** o **balanceada** (devuelve 0 para la mitad de las entradas y 1 para la otra mitad).
+## Description
+The `deutsch-jozsa-eng.py` file implements an oracle that determines whether a boolean hidden function $f: \{0,1\}^n \rightarrow \{0,1\}$ is **not constant** or **not balanced**.
 
-## Contenido
-* **`deutsch-jozsa.py`**: Implementación utilizando Qiskit. El código construye el circuito, aplica las puertas de Hadamard, el oráculo seleccionado y mide el estado final. Además simula la búsqueda estocástica y el peor caso de la búsqueda clásica.
-* **`deutsch-jozsa.png`**: Comparación de complejidad entre el algoritmo de Deutsch-Jozsa, la búsqueda clásica determinista y el método estocástico presentado por Deutsch y Jozsa.
+## Contents
+* **`deutsch-jozsa-eng.py`**: Implementation using Qiskit. The code builds the circuit, applies Hadamard gates, then the selected oracle and measures the final state. It also simulates the stochastic search and the worst classical case.
+* **`deutsch-jozsa-eng.png`**: Complexity comparison between the Deutsch-Jozsa algorithm, the deterministic classical search and th stochastic algorithm.
 
-## Ejecución
+## Execution
 ```bash
 python deutsch-jozsa.py
 ```
