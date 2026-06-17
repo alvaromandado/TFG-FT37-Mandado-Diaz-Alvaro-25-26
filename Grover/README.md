@@ -1,5 +1,7 @@
 # Algoritmo de Grover
 
+*Leer en otros idiomas: [English](README.eng.md)*
+
 Este directorio contiene la implementación del algoritmo de búsqueda de Grover, que proporciona una aceleración cuadrática para problemas de búsqueda en bases de datos no estructuradas (sin información adicional sobre la ubicación de los elementos en la propia base).
 
 ## Descripción
