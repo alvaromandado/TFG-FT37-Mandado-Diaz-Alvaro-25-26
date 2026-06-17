@@ -13,5 +13,5 @@ The `deutsch-jozsa-eng.py` file implements an oracle that determines whether a b
 
 ## Execution
 ```bash
-python deutsch-jozsa.py
+python deutsch-jozsa-eng.py
 ```
